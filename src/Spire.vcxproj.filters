@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D3D.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="GSM.cpp">
+      <Filter>GSM</Filter>
+    </ClCompile>
+    <ClCompile Include="SDemo.cpp">
+      <Filter>GSM\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dep\pch.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dep\DDSTextureLoader.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="igi.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Map.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="GSM.h">
+      <Filter>GSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>GSM</Filter>
+    </ClInclude>
+    <ClInclude Include="SDemo.h">
+      <Filter>GSM\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>FX</Filter>
+    </ClInclude>
+    <ClInclude Include="igi.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Map.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GSM">
+      <UniqueIdentifier>{a9f4f298-4870-40c6-ab42-9d8fa4a9f3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GSM\Screen">
+      <UniqueIdentifier>{92d06f5e-52ab-40da-bb2e-fd58e42403d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{eb1042c6-6fa7-4374-9f16-edb4edccd41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd Party">
+      <UniqueIdentifier>{98020002-4405-4e47-985e-f67b1a6e9521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7191b6d4-ccef-4f28-9fdc-889c7fcf14a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
